@@ -50,10 +50,6 @@ class DisruptionsWebservice extends Webservice
 	    	}    
         }
         
-        
-
-		pr($xmlData);
-
         return new ResultSet($this->_transformResults($disruptions, $options['resourceClass']));
     }
 }
